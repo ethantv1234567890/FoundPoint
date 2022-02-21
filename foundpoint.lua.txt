@@ -1,0 +1,558 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local FoundPoint = Instance.new("ScreenGui")
+local mainframe = Instance.new("Frame")
+local leavefp = Instance.new("Frame")
+local TextButton = Instance.new("TextButton")
+local FE = Instance.new("TextButton")
+local SeriousScripts = Instance.new("TextButton")
+local Games = Instance.new("TextButton")
+local depricatednonworking = Instance.new("TextButton")
+local TextButton_2 = Instance.new("TextButton")
+local Playerdataeditor = Instance.new("TextButton")
+local AH = Instance.new("Frame")
+local NWE = Instance.new("Folder")
+local tbar = Instance.new("Frame")
+local TextButton_3 = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+local UICorner_2 = Instance.new("UICorner")
+local awn = Instance.new("Folder")
+local uitextinterfacing = Instance.new("TextLabel")
+local ImageButton = Instance.new("ImageButton")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local Butoons = Instance.new("Folder")
+local UIGridLayout = Instance.new("UIGridLayout")
+local AnimeFightersSimulator = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local ScriptName = Instance.new("TextLabel")
+local UITextSizeConstraint = Instance.new("UITextSizeConstraint")
+local ScriptLogo = Instance.new("ImageLabel")
+local BeeSwarmSim = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local ScriptLogo_2 = Instance.new("ImageLabel")
+local ScriptName_2 = Instance.new("TextLabel")
+local UITextSizeConstraint_2 = Instance.new("UITextSizeConstraint")
+local Adoptmehax = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local ScriptName_3 = Instance.new("TextLabel")
+local UITextSizeConstraint_3 = Instance.new("UITextSizeConstraint")
+local ScriptLogo_3 = Instance.new("ImageLabel")
+local send = Instance.new("ImageButton")
+local ImageLabel = Instance.new("ImageLabel")
+local closing = Instance.new("TextButton")
+
+--Properties:
+
+FoundPoint.Name = "FoundPoint"
+FoundPoint.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+FoundPoint.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+mainframe.Name = "mainframe"
+mainframe.Parent = FoundPoint
+mainframe.BackgroundColor3 = Color3.fromRGB(59, 59, 59)
+mainframe.BorderColor3 = Color3.fromRGB(0, 0, 0)
+mainframe.Position = UDim2.new(0.32934916, 0, -0.000974416442, 0)
+mainframe.Size = UDim2.new(0.495818108, 0, 0.078370057, 0)
+
+leavefp.Name = "leavefp"
+leavefp.Parent = mainframe
+leavefp.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+leavefp.BackgroundTransparency = 1.000
+leavefp.BorderSizePixel = 0
+leavefp.Position = UDim2.new(0, 0, 0.805418253, 0)
+leavefp.Size = UDim2.new(0, 516, 0, 10)
+
+TextButton.Parent = leavefp
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.BackgroundTransparency = 1.000
+TextButton.BorderSizePixel = 0
+TextButton.Position = UDim2.new(0, 0, -0.644335151, 0)
+TextButton.Size = UDim2.new(0, 652, 0, 18)
+TextButton.Font = Enum.Font.GothamBold
+TextButton.Text = "Exit FoundPoint"
+TextButton.TextColor3 = Color3.fromRGB(252, 252, 252)
+TextButton.TextSize = 14.000
+
+FE.Name = "FE"
+FE.Parent = mainframe
+FE.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+FE.BackgroundTransparency = 1.000
+FE.BorderSizePixel = 0
+FE.Position = UDim2.new(0.023491025, 0, 0, 0)
+FE.Size = UDim2.new(0, 75, 0, 45)
+FE.SizeConstraint = Enum.SizeConstraint.RelativeXX
+FE.Font = Enum.Font.GothamSemibold
+FE.Text = "FE"
+FE.TextColor3 = Color3.fromRGB(255, 255, 255)
+FE.TextScaled = true
+FE.TextSize = 14.000
+FE.TextWrapped = true
+
+SeriousScripts.Name = "Serious Scripts"
+SeriousScripts.Parent = mainframe
+SeriousScripts.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SeriousScripts.BackgroundTransparency = 1.000
+SeriousScripts.BorderSizePixel = 0
+SeriousScripts.Position = UDim2.new(0.239924878, 0, 0, 0)
+SeriousScripts.Size = UDim2.new(0, 75, 0, 45)
+SeriousScripts.SizeConstraint = Enum.SizeConstraint.RelativeXX
+SeriousScripts.Font = Enum.Font.GothamSemibold
+SeriousScripts.Text = "Serious scripts"
+SeriousScripts.TextColor3 = Color3.fromRGB(255, 255, 255)
+SeriousScripts.TextScaled = true
+SeriousScripts.TextSize = 14.000
+SeriousScripts.TextWrapped = true
+
+Games.Name = "Games"
+Games.Parent = mainframe
+Games.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Games.BackgroundTransparency = 1.000
+Games.BorderSizePixel = 0
+Games.Position = UDim2.new(0.13568145, 0, 0, 0)
+Games.Size = UDim2.new(0, 75, 0, 45)
+Games.SizeConstraint = Enum.SizeConstraint.RelativeXX
+Games.Font = Enum.Font.GothamSemibold
+Games.Text = "Games"
+Games.TextColor3 = Color3.fromRGB(255, 255, 255)
+Games.TextScaled = true
+Games.TextSize = 14.000
+Games.TextWrapped = true
+
+depricatednonworking.Name = "depricated (nonworking)"
+depricatednonworking.Parent = mainframe
+depricatednonworking.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+depricatednonworking.BackgroundTransparency = 1.000
+depricatednonworking.BorderSizePixel = 0
+depricatednonworking.Position = UDim2.new(0.542891443, 0, 0, 0)
+depricatednonworking.Size = UDim2.new(0, 75, 0, 45)
+depricatednonworking.SizeConstraint = Enum.SizeConstraint.RelativeXX
+depricatednonworking.Font = Enum.Font.GothamSemibold
+depricatednonworking.Text = "Depricated"
+depricatednonworking.TextColor3 = Color3.fromRGB(255, 255, 255)
+depricatednonworking.TextScaled = true
+depricatednonworking.TextSize = 14.000
+depricatednonworking.TextWrapped = true
+
+TextButton_2.Parent = mainframe
+TextButton_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.BackgroundTransparency = 1.000
+TextButton_2.BorderSizePixel = 0
+TextButton_2.Position = UDim2.new(0.434378892, 0, 0, 0)
+TextButton_2.Size = UDim2.new(0, 75, 0, 45)
+TextButton_2.SizeConstraint = Enum.SizeConstraint.RelativeXX
+TextButton_2.Font = Enum.Font.GothamSemibold
+TextButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.TextScaled = true
+TextButton_2.TextSize = 14.000
+TextButton_2.TextWrapped = true
+
+Playerdataeditor.Name = "Player data editor"
+Playerdataeditor.Parent = mainframe
+Playerdataeditor.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Playerdataeditor.BackgroundTransparency = 1.000
+Playerdataeditor.BorderSizePixel = 0
+Playerdataeditor.Position = UDim2.new(0.334144861, 0, 0, 0)
+Playerdataeditor.Size = UDim2.new(0, 75, 0, 45)
+Playerdataeditor.SizeConstraint = Enum.SizeConstraint.RelativeXX
+Playerdataeditor.Font = Enum.Font.GothamSemibold
+Playerdataeditor.Text = "Player data editor"
+Playerdataeditor.TextColor3 = Color3.fromRGB(255, 255, 255)
+Playerdataeditor.TextScaled = true
+Playerdataeditor.TextSize = 14.000
+Playerdataeditor.TextWrapped = true
+
+AH.Name = "AH"
+AH.Parent = mainframe
+AH.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+AH.Position = UDim2.new(0.766184151, 0, 5.58253956, 0)
+AH.Size = UDim2.new(0, 440, 0, 279)
+
+NWE.Name = "NWE"
+NWE.Parent = AH
+
+tbar.Name = "tbar"
+tbar.Parent = NWE
+tbar.BackgroundColor3 = Color3.fromRGB(43, 43, 46)
+tbar.BorderSizePixel = 0
+tbar.Size = UDim2.new(0, 440, 0, 32)
+
+TextButton_3.Parent = tbar
+TextButton_3.BackgroundColor3 = Color3.fromRGB(228, 231, 6)
+TextButton_3.Position = UDim2.new(0.0139248939, 0, 0.244842529, 0)
+TextButton_3.Size = UDim2.new(0, 20, 0, 20)
+TextButton_3.Font = Enum.Font.SourceSans
+TextButton_3.Text = " "
+TextButton_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.TextSize = 14.000
+
+UICorner.CornerRadius = UDim.new(0.5, 0)
+UICorner.Parent = TextButton_3
+
+UICorner_2.Parent = tbar
+
+awn.Name = "awn"
+awn.Parent = AH
+
+uitextinterfacing.Name = "uitextinterfacing"
+uitextinterfacing.Parent = awn
+uitextinterfacing.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+uitextinterfacing.BackgroundTransparency = 1.000
+uitextinterfacing.BorderSizePixel = 0
+uitextinterfacing.Position = UDim2.new(0.109090909, 0, 0, 0)
+uitextinterfacing.Size = UDim2.new(0, 367, 0, 32)
+uitextinterfacing.Font = Enum.Font.Ubuntu
+uitextinterfacing.TextColor3 = Color3.fromRGB(98, 98, 98)
+uitextinterfacing.TextSize = 14.000
+
+ImageButton.Parent = AH
+ImageButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageButton.Position = UDim2.new(0.811595559, 0, 0.0250896066, 0)
+ImageButton.Size = UDim2.new(0, 78, 0, 22)
+ImageButton.Image = "rbxassetid://8853743983"
+
+ScrollingFrame.Parent = AH
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScrollingFrame.BackgroundTransparency = 1.000
+ScrollingFrame.BorderSizePixel = 0
+ScrollingFrame.Position = UDim2.new(0, 0, 0.125448033, 0)
+ScrollingFrame.Size = UDim2.new(0, 440, 0, 244)
+ScrollingFrame.ScrollBarThickness = 5
+
+Butoons.Name = "Butoons"
+Butoons.Parent = ScrollingFrame
+
+UIGridLayout.Parent = Butoons
+UIGridLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIGridLayout.SortOrder = Enum.SortOrder.LayoutOrder
+UIGridLayout.CellPadding = UDim2.new(0, 5, 0, 3)
+UIGridLayout.CellSize = UDim2.new(0, 100, 0, 40)
+UIGridLayout.StartCorner = Enum.StartCorner.TopRight
+
+AnimeFightersSimulator.Name = "AnimeFightersSimulator"
+AnimeFightersSimulator.Parent = Butoons
+AnimeFightersSimulator.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AnimeFightersSimulator.Position = UDim2.new(0.345492572, 0, 0.714452446, 0)
+AnimeFightersSimulator.Size = UDim2.new(0.294637084, 0, 0.0783216581, 0)
+AnimeFightersSimulator.Font = Enum.Font.SourceSans
+AnimeFightersSimulator.Text = " "
+AnimeFightersSimulator.TextColor3 = Color3.fromRGB(0, 0, 0)
+AnimeFightersSimulator.TextSize = 14.000
+AnimeFightersSimulator.TextWrapped = true
+
+UICorner_3.CornerRadius = UDim.new(0.0250000004, 0)
+UICorner_3.Parent = AnimeFightersSimulator
+
+ScriptName.Name = "ScriptName"
+ScriptName.Parent = AnimeFightersSimulator
+ScriptName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScriptName.BackgroundTransparency = 1.000
+ScriptName.Position = UDim2.new(0.102503084, 0, 0, 0)
+ScriptName.Size = UDim2.new(0.897026896, 0, 0.995242655, 0)
+ScriptName.Font = Enum.Font.GothamBold
+ScriptName.Text = "Anime Fighters"
+ScriptName.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScriptName.TextScaled = true
+ScriptName.TextSize = 20.000
+ScriptName.TextWrapped = true
+ScriptName.TextXAlignment = Enum.TextXAlignment.Left
+
+UITextSizeConstraint.Parent = ScriptName
+UITextSizeConstraint.MaxTextSize = 20
+
+ScriptLogo.Name = "ScriptLogo"
+ScriptLogo.Parent = AnimeFightersSimulator
+ScriptLogo.Active = true
+ScriptLogo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScriptLogo.BackgroundTransparency = 1.000
+ScriptLogo.Position = UDim2.new(-0.00100000005, 0, 0.119999997, 0)
+ScriptLogo.Size = UDim2.new(0.104000002, 0, 0.717999995, 0)
+ScriptLogo.Image = "rbxassetid://3926305904"
+ScriptLogo.ImageColor3 = Color3.fromRGB(0, 0, 0)
+ScriptLogo.ImageRectOffset = Vector2.new(284, 684)
+ScriptLogo.ImageRectSize = Vector2.new(36, 36)
+ScriptLogo.ScaleType = Enum.ScaleType.Fit
+
+BeeSwarmSim.Name = "BeeSwarmSim"
+BeeSwarmSim.Parent = Butoons
+BeeSwarmSim.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BeeSwarmSim.Position = UDim2.new(0.345492572, 0, 0.714452446, 0)
+BeeSwarmSim.Size = UDim2.new(0.294637084, 0, 0.0783216581, 0)
+BeeSwarmSim.Font = Enum.Font.SourceSans
+BeeSwarmSim.Text = " "
+BeeSwarmSim.TextColor3 = Color3.fromRGB(0, 0, 0)
+BeeSwarmSim.TextSize = 14.000
+BeeSwarmSim.TextWrapped = true
+
+UICorner_4.CornerRadius = UDim.new(0.0250000004, 0)
+UICorner_4.Parent = BeeSwarmSim
+
+ScriptLogo_2.Name = "ScriptLogo"
+ScriptLogo_2.Parent = BeeSwarmSim
+ScriptLogo_2.Active = true
+ScriptLogo_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScriptLogo_2.BackgroundTransparency = 1.000
+ScriptLogo_2.Position = UDim2.new(-0.00100000005, 0, 0.119999997, 0)
+ScriptLogo_2.Size = UDim2.new(0.104000002, 0, 0.717999995, 0)
+ScriptLogo_2.Image = "rbxassetid://3926305904"
+ScriptLogo_2.ImageColor3 = Color3.fromRGB(0, 0, 0)
+ScriptLogo_2.ImageRectOffset = Vector2.new(284, 684)
+ScriptLogo_2.ImageRectSize = Vector2.new(36, 36)
+ScriptLogo_2.ScaleType = Enum.ScaleType.Fit
+
+ScriptName_2.Name = "ScriptName"
+ScriptName_2.Parent = BeeSwarmSim
+ScriptName_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScriptName_2.BackgroundTransparency = 1.000
+ScriptName_2.Position = UDim2.new(0.102503084, 0, 0, 0)
+ScriptName_2.Size = UDim2.new(0.897026896, 0, 0.995242655, 0)
+ScriptName_2.Font = Enum.Font.GothamBold
+ScriptName_2.Text = "BeeSwarmSim"
+ScriptName_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScriptName_2.TextScaled = true
+ScriptName_2.TextSize = 20.000
+ScriptName_2.TextWrapped = true
+ScriptName_2.TextXAlignment = Enum.TextXAlignment.Left
+
+UITextSizeConstraint_2.Parent = ScriptName_2
+UITextSizeConstraint_2.MaxTextSize = 20
+
+Adoptmehax.Name = "Adoptmehax"
+Adoptmehax.Parent = Butoons
+Adoptmehax.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Adoptmehax.Position = UDim2.new(0.345492572, 0, 0.714452446, 0)
+Adoptmehax.Size = UDim2.new(0.294637084, 0, 0.0783216581, 0)
+Adoptmehax.Font = Enum.Font.SourceSans
+Adoptmehax.Text = " "
+Adoptmehax.TextColor3 = Color3.fromRGB(0, 0, 0)
+Adoptmehax.TextSize = 14.000
+Adoptmehax.TextWrapped = true
+
+UICorner_5.CornerRadius = UDim.new(0.0250000004, 0)
+UICorner_5.Parent = Adoptmehax
+
+ScriptName_3.Name = "ScriptName"
+ScriptName_3.Parent = Adoptmehax
+ScriptName_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScriptName_3.BackgroundTransparency = 1.000
+ScriptName_3.Position = UDim2.new(0.102503084, 0, 0, 0)
+ScriptName_3.Size = UDim2.new(0.897026896, 0, 0.995242655, 0)
+ScriptName_3.Font = Enum.Font.GothamBold
+ScriptName_3.Text = "Adopt Me"
+ScriptName_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScriptName_3.TextScaled = true
+ScriptName_3.TextSize = 20.000
+ScriptName_3.TextWrapped = true
+ScriptName_3.TextXAlignment = Enum.TextXAlignment.Left
+
+UITextSizeConstraint_3.Parent = ScriptName_3
+UITextSizeConstraint_3.MaxTextSize = 20
+
+ScriptLogo_3.Name = "ScriptLogo"
+ScriptLogo_3.Parent = Adoptmehax
+ScriptLogo_3.Active = true
+ScriptLogo_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScriptLogo_3.BackgroundTransparency = 1.000
+ScriptLogo_3.Position = UDim2.new(-0.00100000005, 0, 0.119999997, 0)
+ScriptLogo_3.Size = UDim2.new(0.104000002, 0, 0.717999995, 0)
+ScriptLogo_3.Image = "rbxassetid://3926305904"
+ScriptLogo_3.ImageColor3 = Color3.fromRGB(0, 0, 0)
+ScriptLogo_3.ImageRectOffset = Vector2.new(284, 684)
+ScriptLogo_3.ImageRectSize = Vector2.new(36, 36)
+ScriptLogo_3.ScaleType = Enum.ScaleType.Fit
+
+send.Name = "send"
+send.Parent = mainframe
+send.BackgroundTransparency = 1.000
+send.LayoutOrder = 4
+send.Position = UDim2.new(0.980248809, 0, 0.69609797, 0)
+send.Rotation = 90.000
+send.Size = UDim2.new(0, 15, 0, 18)
+send.ZIndex = 2
+send.Image = "rbxassetid://3926307971"
+send.ImageRectOffset = Vector2.new(44, 284)
+send.ImageRectSize = Vector2.new(36, 36)
+
+ImageLabel.Parent = mainframe
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.Position = UDim2.new(0.661921144, 0, 0.156564087, 0)
+ImageLabel.Size = UDim2.new(0, 132, 0, 37)
+ImageLabel.Image = "rbxassetid://8853743983"
+
+closing.Name = "closing..."
+closing.Parent = mainframe
+closing.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+closing.BackgroundTransparency = 1.000
+closing.BorderSizePixel = 0
+closing.Position = UDim2.new(0.845235109, 0, 0.156564116, 0)
+closing.Size = UDim2.new(0, 75, 0, 45)
+closing.SizeConstraint = Enum.SizeConstraint.RelativeXX
+closing.Font = Enum.Font.GothamSemibold
+closing.Text = "Exit"
+closing.TextColor3 = Color3.fromRGB(255, 255, 255)
+closing.TextScaled = true
+closing.TextSize = 14.000
+closing.TextWrapped = true
+
+-- Scripts:
+
+local function DKBPI_fake_script() -- FE.LocalScript 
+	local script = Instance.new('LocalScript', FE)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.AH.awn.uitextinterfacing.Text = script.Parent.Name
+	end)
+end
+coroutine.wrap(DKBPI_fake_script)()
+local function HGKXH_fake_script() -- SeriousScripts.LocalScript 
+	local script = Instance.new('LocalScript', SeriousScripts)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.AH.awn.uitextinterfacing.Text = script.Parent.Name
+	end)
+end
+coroutine.wrap(HGKXH_fake_script)()
+local function DJOTWZ_fake_script() -- Games.LocalScript 
+	local script = Instance.new('LocalScript', Games)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.AH.awn.uitextinterfacing.Text = script.Parent.Name
+	end)
+end
+coroutine.wrap(DJOTWZ_fake_script)()
+local function CONFXMK_fake_script() -- depricatednonworking.LocalScript 
+	local script = Instance.new('LocalScript', depricatednonworking)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.AH.awn.uitextinterfacing.Text = script.Parent.Name
+	end)
+end
+coroutine.wrap(CONFXMK_fake_script)()
+local function ZEYS_fake_script() -- TextButton_2.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.AH.awn.uitextinterfacing.Text = script.Parent.Name
+	end)
+end
+coroutine.wrap(ZEYS_fake_script)()
+local function BKUBVYW_fake_script() -- Playerdataeditor.LocalScript 
+	local script = Instance.new('LocalScript', Playerdataeditor)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.AH.awn.uitextinterfacing.Text = script.Parent.Name
+	end)
+end
+coroutine.wrap(BKUBVYW_fake_script)()
+local function ZJLMEZR_fake_script() -- AH.Drag 
+	local script = Instance.new('LocalScript', AH)
+
+	local UserInputService = game:GetService("UserInputService")
+	local runService = (game:GetService("RunService"));
+	
+	local gui = script.Parent
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	function Lerp(a, b, m)
+		return a + (b - a) * m
+	end;
+	
+	local lastMousePos
+	local lastGoalPos
+	local DRAG_SPEED = (15); -- // The speed of the UI darg.
+	function Update(dt)
+		if not (startPos) then return end;
+		if not (dragging) and (lastGoalPos) then
+			gui.Position = UDim2.new(startPos.X.Scale, Lerp(gui.Position.X.Offset, lastGoalPos.X.Offset, dt * DRAG_SPEED), startPos.Y.Scale, Lerp(gui.Position.Y.Offset, lastGoalPos.Y.Offset, dt * DRAG_SPEED))
+			return 
+		end;
+	
+		local delta = (lastMousePos - UserInputService:GetMouseLocation())
+		local xGoal = (startPos.X.Offset - delta.X);
+		local yGoal = (startPos.Y.Offset - delta.Y);
+		lastGoalPos = UDim2.new(startPos.X.Scale, xGoal, startPos.Y.Scale, yGoal)
+		gui.Position = UDim2.new(startPos.X.Scale, Lerp(gui.Position.X.Offset, xGoal, dt * DRAG_SPEED), startPos.Y.Scale, Lerp(gui.Position.Y.Offset, yGoal, dt * DRAG_SPEED))
+	end;
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+			lastMousePos = UserInputService:GetMouseLocation()
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	runService.Heartbeat:Connect(Update)
+end
+coroutine.wrap(ZJLMEZR_fake_script)()
+local function OTBX_fake_script() -- TextButton_3.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_3)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Parent.Visible = false
+		script.Parent.Parent.Parent.Parent.Parent.send.Visible = true
+	end)
+end
+coroutine.wrap(OTBX_fake_script)()
+local function NELQ_fake_script() -- AnimeFightersSimulator.Execute 
+	local script = Instance.new('LocalScript', AnimeFightersSimulator)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game.HttpGet(game, "https://raw.githubusercontent.com/KiJinGaming/FreeScript/main/KJHub.lua"))();
+	end)
+end
+coroutine.wrap(NELQ_fake_script)()
+local function SMFFPDM_fake_script() -- BeeSwarmSim.Execute 
+	local script = Instance.new('LocalScript', BeeSwarmSim)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/AltsegoD/script/master/BeeSwarmSimulator.lua')))()
+	end)
+end
+coroutine.wrap(SMFFPDM_fake_script)()
+local function KOXV_fake_script() -- Adoptmehax.Execute 
+	local script = Instance.new('LocalScript', Adoptmehax)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://bloxhub.xyz/script/loader"))()
+	end)
+end
+coroutine.wrap(KOXV_fake_script)()
+local function PPNI_fake_script() -- send.LocalScript 
+	local script = Instance.new('LocalScript', send)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.AH.Visible = true
+		script.Parent.Visible = false
+	end)
+end
+coroutine.wrap(PPNI_fake_script)()
+local function MEDDJG_fake_script() -- closing.LocalScript 
+	local script = Instance.new('LocalScript', closing)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.AH.awn.uitextinterfacing.Text = script.Parent.Name
+		script.Parent.Parent.Parent.Parent = nil
+	end)
+end
+coroutine.wrap(MEDDJG_fake_script)()
